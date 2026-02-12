@@ -7,7 +7,7 @@ function OpenProjectInventory() {
     quantity: "",
     status: ""
   });
-  const API_URL = "http://localhost:5000/inventory";
+  const API_URL = "https://op-pm-workshop.onrender.com/inventory";
 
   const fetchInventory = async () => {
     const response = await fetch(API_URL);
